@@ -3945,6 +3945,7 @@ textarea.form-control-lg {
   color: #0d6efd;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  left: 30;
 }
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
@@ -11301,9 +11302,8 @@ textarea.form-control-lg {
 }
 
 .logo{
-  position:fixed;
+  position: relative;
   top:0;
-  left:0;
-  width: 100px;
-
-  }
+  right: 0;
+  width: 120px;
+}
